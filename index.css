@@ -1,0 +1,31 @@
+
+#Filter-List{
+    background-color: black;
+    color:white;
+    gap: 15px;
+    display: flex;
+
+}
+header{
+    background-color: rgb(51, 48, 48);
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h1{
+    color: white;
+    text-align: start;
+}
+.category{
+    color: blue;
+}
+.Product-List{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (250px ,1fr));
+    gap: 20px;
+    
+}
+
